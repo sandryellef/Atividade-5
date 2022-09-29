@@ -1,0 +1,69 @@
+/* GERAL */
+* {
+    box-sizing: border-box; /* tamanho leva em consideraÃ§ÃĢo o padding */
+    }
+    body {
+    background-color: rgb(193, 229, 240); /* determina a cor de fundo de um elemento */
+    font-family: 'Lato', Arial, Helvetica, sans-serif; /* determina o tipo de fonte */
+    }
+    a {
+    
+    text-decoration: none; /* define algum tipo de decoraÃ§ÃĢo no texto. Valores: overline, line-
+    through, underline, underline overline */
+    
+    }
+    img {
+    width: 90%; /* define o comprimento */
+    }
+    /* FONTS */
+    h1 {
+    text-align: right; /* define o alinhamento do texto */
+    font-size: 35px; /* define o tamanho da fonte. Unidades possÃveis sÃĢo px, em, rem, entre
+    outros */
+    text-transform: uppercase; /*define alguma mudanÃ§a na prÃģpria fonte. Valores possÃveis:
+    lowercase, uppercase, capitalize */
+    }
+    h2 {
+    text-align: right;
+    }
+    p {
+    width: 430px;
+    margin-bottom: 110px;
+    text-align: right;
+    }
+    /* UTILITIES */
+    .u-margin-small {
+    margin: 5px;
+    }
+    .sobre-conteudo {
+    width: 45%;
+    display: inline-block;
+    }
+    .sobre-imagem {
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    }
+    .section-sobre {
+    width: 960px;
+    margin: 0 auto; /* macete para deixar elementos block centralizados */
+    margin-top: 100px;
+    }
+    .sobre-conteudo__botoes {
+    text-align: right; /* esse tipo de alinhamento para botÃĩes nÃĢo funciona se for colocado
+    diretamente no elemento <a>. Deve-se colocar essa propriedade no elemento mÃĢe */
+    }
+    .btn {
+    padding: 10px 12px;
+    font-size: 16px;
+    
+    }
+    .btn_roxo {
+    background-color: #df0d1f;
+    color: rgb(206, 228, 9); /* define a cor do conteÃšdo do elemento */
+    }
+    .btn_transp {
+    color: #e20f0f;
+    border: 1px solid #df0c76; /* cria uma borda no elemento. Ordem de valores: grossura-da-borda
+    tipo-da-borda cor-da-borda. */
+    }
